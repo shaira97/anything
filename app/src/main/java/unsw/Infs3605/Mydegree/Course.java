@@ -14,6 +14,8 @@ public class Course {
     private int t2;
     private int t3;
     private int prereq;
+    //Jonathan's Comment
+
 
     public Course() {
 
