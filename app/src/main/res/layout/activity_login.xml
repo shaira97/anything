@@ -11,7 +11,7 @@
         android:layout_marginStart="142dp"
         android:layout_marginTop="127dp"
         android:layout_marginEnd="142dp"
-        android:src="@drawable/laoos"
+        android:src="@drawable/lic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
