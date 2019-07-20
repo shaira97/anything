@@ -22,7 +22,7 @@ public class QuizResultsActivity extends MainActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_results);
 
-        appBarTxt.setText("Result marked by Avo");
+        appBarTxt.setText("Results ");
 
         Intent intent = getIntent();
         correctCount = intent.getIntExtra("KEYCORRECT", 0);
@@ -49,7 +49,7 @@ public class QuizResultsActivity extends MainActivity {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
                 String shareBody = "I have finished topic " +topic+ " Green Quiz in Green Books apps"+" My score is: "+correctCount + "/" + questionCount;
-                String shareSub = "GreenBook is awesome!";
+                String shareSub = "MyDegree is awesome!";
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,shareBody);
                 startActivity(Intent.createChooser(myIntent,"Share using"));

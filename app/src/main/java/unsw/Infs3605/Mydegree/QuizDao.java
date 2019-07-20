@@ -22,7 +22,7 @@ public interface QuizDao {
     @Query("SELECT * from quiz_table WHERE topic ='3' ORDER BY id ASC")
     LiveData<List<Quiz>> getTopic3();
 
-    @Query("SELECT * from quiz_table WHERE topic ='4' ORDER BY id ASC")
+   /* @Query("SELECT * from quiz_table WHERE topic ='4' ORDER BY id ASC")
     LiveData<List<Quiz>> getTopic4();
 
     @Query("SELECT * from quiz_table WHERE topic ='5' ORDER BY id ASC")
@@ -35,7 +35,7 @@ public interface QuizDao {
     LiveData<List<Quiz>> getTopic7();
 
     @Query("SELECT * from quiz_table WHERE topic ='8' ORDER BY id ASC")
-    LiveData<List<Quiz>> getTopic8();
+    LiveData<List<Quiz>> getTopic8();*/
 
     @Insert
     void insert(Quiz quiz);

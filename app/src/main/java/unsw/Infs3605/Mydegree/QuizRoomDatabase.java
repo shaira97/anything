@@ -52,58 +52,58 @@ public abstract class QuizRoomDatabase extends RoomDatabase {
 
             mDao.deleteAll();
 
-            Quiz quiz = new Quiz(1, 1, false, false,
+            Quiz quiz = new Quiz(1, 1, true, false,
+                    3,
+                    "What is the limit of year 1 courses you can take?",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "The Information Systems Degree limits students to only completing 10 level 1 courses (60 UOC). There are 7 compulsory level 1 courses in the Information Systems degree so a maximum of 3 extra level 1 courses can be completed."
+            );
+            mDao.insert(quiz);
+
+            quiz = new Quiz(2, 1, false, false,
                     1,
-                    "In general, the more muscle and less fat you have, the higher your metabolic rate.",
+                    "INFS1603 is a core course",
                     "True",
                     "False",
                     "",
                     "",
-                    "Your metabolic rate is strongly influenced by your body composition. People with more muscle and less fat generally have a faster metabolic rate, while people with more fat and less muscle generally have a slower metabolic rate."
-            );
-            mDao.insert(quiz);
-
-            quiz = new Quiz(2, 1, true, false,
-                    3,
-                    "Which of the following can boost your metabolic rate?",
-                    "A high-fat diet",
-                    "A high-carbohydrate diet",
-                    "A high-protein diet",
-                    "None of the above",
-                    "Studies show that the body requires more energy to process a high-protein diet, which means that as your body digests high-protein foods, your metabolic rate rises."
+                    "INFS1603 is one of the core courses for the INFS degree"
             );
             mDao.insert(quiz);
 
             quiz = new Quiz(3, 1, false, false,
                     2,
-                    "Women usually have a higher metabolic rate than men.",
+                    "INFS1603 has prerequisite courses than need to be completed",
                     "True",
                     "False",
                     "",
                     "",
-                    "Men tend to have a higher metabolic rate than women because women have a higher proportion of fat."
+                    "INFS1603 is a level 1 course that does not require any prerequisite knowledge"
             );
             mDao.insert(quiz);
 
             quiz = new Quiz(4, 1, true, false,
-                    3,
-                    "What is your 'metabolism'?",
-                    "The rate at which you burn calories",
-                    "The rate at which you eat or drink calories",
-                    "The process your body uses to convert or use energy",
-                    "None of the above",
-                    "'Metabolism' is how your body converts or uses energy for activities such as breathing, digestion, building muscle, storing fat, and circulating blood -- things you need to do to live."
+                    2,
+                    "Which of these is not a compulsory level 1 course?",
+                    "INFS1602",
+                    "FINS1613",
+                    "INFS1609 ",
+                    "MGMT1001",
+                    "INFS1602, INFS1609 and MGMT1001 are all compulsory courses that students must complete. FINS1613 however, is not mandatory but can be completed as a free elective."
             );
             mDao.insert(quiz);
 
-            quiz = new Quiz(5, 1, true, false,
-                    4,
-                    "Which of the following can affect your metabolism?",
-                    "Lifestyle",
-                    "Genes",
-                    "Age",
-                    "All of the above",
-                    "Several things affect your metabolism and metabolic rate. Genes play a very important role. They're one reason that some people stay thin no matter how much they eat, while others find it harder to lose weight. Your lifestyle, particularly diet and exercise, also matters. So does your age: Your metabolism is likely to slow down as you get older."
+            quiz = new Quiz(5, 2, false, false,
+                    2,
+                    "I have to complete all my level 1 courses before I can start my level 2 courses.",
+                    "True",
+                    "False",
+                    "",
+                    "",
+                    "While level 2 courses will have prerequisite courses, students are able to complete some courses without having completed all of their level 1 courses. For example, INFS2603 only INFS1602 and INFS1603 as prerequisites but not INFS1609."
             );
             mDao.insert(quiz);
 
@@ -111,85 +111,87 @@ public abstract class QuizRoomDatabase extends RoomDatabase {
 
 
             quiz = new Quiz(6, 2, true, false,
-                    1,
-                    "What is heart rate?",
-                    "The number of beats / contractions per minute",
-                    "The number of beats / contractions per 30 secs",
-                    "The volume in blood pumped from the heart in one contraction",
-                    "The volume in blood pumped from the heart in one minute",
-                    ""
+                    4,
+                    "How many compulsory courses are there in the INFS degree?",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "There are 16 courses (96 UOC) which are considered compulsory for the Information Systems Degree. If you do not complete any of the courses, you will not be elligible to graduate."
             );
             mDao.insert(quiz);
 
             quiz = new Quiz(7, 2, true, false,
-                    2,
-                    "Which one of the following is defined as the volume of blood pumped from the heart in one contraction?",
-                    "Cardiac output",
-                    "Stroke volume",
-                    "Heart rate",
-                    "Cardiac arrest",
-                    ""
+                    1,
+                    "Which of the following is not a compulsory level 2 course?",
+                    "INFS2631",
+                    "INFS2621",
+                    "INFS2628",
+                    "INFS2605",
+                    "INFS2621, INFS2628, and INFS2605 are all level core courses along with INFS2603. INFS2631 is an Information Systems elective."
             );
             mDao.insert(quiz);
 
             quiz = new Quiz(8, 2, true, false,
-                    1,
-                    "A long term effect of regular exercise on the heart is increased stroke volume. What effect will this have?",
-                    "The heart will beat less frequently",
-                    "The heart will contract less forcefully",
-                    "Blood pressure will increase",
-                    "CHD risk will increase",
-                    ""
+                    2,
+                    "How many General Education Courses can you take?",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "You are required to complete 2 general education courses (12UOC), which are courses taken outside of the Business School."
             );
             mDao.insert(quiz);
 
-            quiz = new Quiz(9, 2, true, false,
-                    1,
-                    "What happens during dilation of blood vessels?",
-                    "The blood vessels get wider",
-                    "The blood vessels get narrower",
-                    "The valves in the veins remain open",
-                    "The valves in the veins remain closed",
-                    ""
+            quiz = new Quiz(9, 3, false, false,
+                    2,
+                    "I have to complete all my level 1 and level 2 courses before I can start my level 3 courses.",
+                    "True",
+                    "False",
+                    "",
+                    "",
+                    "While level 3 courses will have prerequisite courses, students are able to complete some courses without having completed all of their level 1 and level 2 courses."
             );
             mDao.insert(quiz);
 
-            quiz = new Quiz(10, 2, true, false,
-                    4,
-                    "Why does blood pooling lead to an increased risk of fainting?",
-                    "It leads to decrease of blood sugar",
-                    "It leads to an increase of blood sugar",
-                    "It leads to an increase in the blood supply to the brain",
-                    "It leads to an decrease in the blood supply to the brain",
-                    ""
+            quiz = new Quiz(10, 3, true, false,
+                    3,
+                    "What is the minimum number of Stage 2/3 Information Systems Electives that I must complete?",
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "2 electives must be chosen out of the following five courses: INFS2631, INFS3020, INFS3632, INFS3830, and INFS3873"
             );
             mDao.insert(quiz);
 
 
 
             quiz = new Quiz(11, 3, true, false,
-                    3,
-                    "Which of the following training outcomes requires speed during resistance training?",
-                    "Muscular endurance",
-                    "Muscular strength",
-                    "Muscular power",
-                    "Muscular fitness",
-                    ""
+                    4,
+                    "Which of the following is a compulsory level 3 course?",
+                    "INFS3830",
+                    "INFS3632",
+                    "INFS3020",
+                    "INFS3634",
+                    "INFS3634 is a compulsory level 3 course while the other 3 INFS3830, INFS3632, and INFS3020 are all considered electives"
             );
             mDao.insert(quiz);
 
-            quiz = new Quiz(12, 3, true, false,
-                    2,
-                    "Which of the following will primarily recruit type 2b muscle fibres in resistance training?",
-                    "High weight and high repetitions",
-                    "High weight and low repetitions",
-                    "low weight and high repetitions",
-                    "low weight and low repetitions",
-                    ""
+            quiz = new Quiz(12, 3, false, false,
+                    1,
+                    "INFS3873 is a Information Systems Elective",
+                    "True",
+                    "False",
+                    "",
+                    "",
+                    "INFS3873 is an elective that can be completed by an INFS student. 2 electives must be chosen out of the following five: INFS2631, INFS3020, INFS3632, INFS3830, and INFS3873"
             );
-            mDao.insert(quiz);
 
-            quiz = new Quiz(13, 3, true, false,
+
+           mDao.insert(quiz);
+
+           /* quiz = new Quiz(13, 3, true, false,
                     1,
                     "If you have arthritis, you should:",
                     "Walk regularly for exercise",
@@ -511,7 +513,7 @@ public abstract class QuizRoomDatabase extends RoomDatabase {
                     "Protects your cells",
                     "Protects your hair",
                     "Women who are active are 30% to 40% less likely to get breast cancer. Women and men who walk briskly or do other physical activities regularly are also much less likely than others to have colon cancer. To cut your cancer risk, try to walk at least 30 minutes almost every day.");
-            mDao.insert(quiz);
+            mDao.insert(quiz);*/
 
 
 
