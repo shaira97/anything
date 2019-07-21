@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="unsw.Infs3634.Mydegree"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="27" />
+    <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:label="SUBG"
+        android:roundIcon="@mipmap/ic_mydegreeicon_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name="unsw.Infs3634.Mydegree.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="unsw.Infs3634.Mydegree.HomeActivity" />
+        <activity android:name="unsw.Infs3634.Mydegree.signupActivity" />
+        <activity android:name="unsw.Infs3634.Mydegree.DefaultTempleteActivity" />
+        <activity android:name="unsw.Infs3634.Mydegree.HomepageActivity" />
+        <activity android:name="unsw.Infs3634.Mydegree.MainActivity" />
+        <activity android:name="unsw.Infs3634.Mydegree.ManagementActivity" />
+        <activity android:name="unsw.Infs3634.Mydegree.year1_mgmtActivity" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.NotesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.NoteEditorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.MenuDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.QuizSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.QuizTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.QuizResultsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="unsw.Infs3634.Mydegree.QuizReviewActivity" />
+        <activity
+            android:name="unsw.Infs3634.Mydegree.QuizReviewActivity$resources_activitysearch"
+            android:label="@string/title_activity_resources_activitysearch" />
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="unsw.Infs3634.Mydegree.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="unsw.Infs3634.Mydegree.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="unsw.Infs3634.Mydegree.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

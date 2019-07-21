@@ -1,0 +1,4 @@
+#Tue Jul 16 12:49:48 AEST 2019
+base.0=/Users/bowenzha/Desktop/anything/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex
