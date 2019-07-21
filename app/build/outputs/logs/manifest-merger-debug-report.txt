@@ -1,0 +1,252 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+MERGED from [com.android.support:design:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/10db4577e81c48935fc9ea1d34834456/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cccee0cb1f3a59f939c0fb5cafee4b2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/b9fefa88ab5dc4f94470d734c56c0b82/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8a3e992af14efcbbfd718f3ddcaf5558/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/abba9be7edd914274cd059f5755bfc9f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/b43b082b8cae9fd62a7f88235709fc1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/86e1630db05c92eab1cb89c531b142b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/7ead57978ace9a59468685af7a86f863/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/6f6b8e9f3b5cab125ce622a6e82abbd4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e366c96798a8579ea426514dee40bb09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/530fe71185467728d030fee97b38bca5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/be41c1e05084d2f5abd7b7e9c798d9d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a993ff30c632371f3933c252b57b4aef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/48af5ea575be2ddc5743c2927f20bf13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c921514a021801031bd1ad24f27cd1de/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/4f72b39e4e0daf023954ce598c1816a5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/25d3d656c661d3507f1b2c1cde67b4c5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3a53d31c63ed697b226f52e2c1992c3a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/5bc8342e80fd9b23dec5b19652de1e67/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8f439cf2e62fb44c610dfdf3f58d968c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/23f267620b30408b51e257c1633f643f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3823535117942db52cb4b38dd9900883/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4eea75de130ad87faddf5b54565d7090/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:1-69:12
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:7:5-67:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8a3e992af14efcbbfd718f3ddcaf5558/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8a3e992af14efcbbfd718f3ddcaf5558/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:22:5-28:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:7:5-12:19
+	android:supportsRtl
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:10:9-29
+	android:roundIcon
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:9:9-58
+	android:allowBackup
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:13:9-52
+activity#unsw.Infs3634.Mydegree.LoginActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:14:19-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:18:27-74
+activity#unsw.Infs3634.Mydegree.HomeActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:21:9-72
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:21:19-69
+activity#unsw.Infs3634.Mydegree.signupActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:22:9-74
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:22:19-71
+activity#unsw.Infs3634.Mydegree.DefaultTempleteActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:23:9-83
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:23:19-80
+activity#unsw.Infs3634.Mydegree.HomepageActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:24:9-76
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:24:19-73
+activity#unsw.Infs3634.Mydegree.MainActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:25:9-72
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:25:19-69
+activity#unsw.Infs3634.Mydegree.ManagementActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:26:9-78
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:26:19-75
+activity#unsw.Infs3634.Mydegree.year1_mgmtActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:32:9-78
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:32:19-75
+activity#unsw.Infs3634.Mydegree.MenuActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:33:9-35:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:34:13-63
+activity#unsw.Infs3634.Mydegree.NotesActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:37:13-64
+activity#unsw.Infs3634.Mydegree.NoteEditorActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:40:13-69
+activity#unsw.Infs3634.Mydegree.VideoActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:42:9-44:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:43:13-64
+activity#unsw.Infs3634.Mydegree.MenuDetail
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:45:9-47:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:46:13-61
+activity#unsw.Infs3634.Mydegree.QuizSelectionActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:50:13-72
+activity#unsw.Infs3634.Mydegree.QuizTestActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:53:13-67
+activity#unsw.Infs3634.Mydegree.QuizResultsActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:56:13-70
+activity#unsw.Infs3634.Mydegree.QuizReviewActivity
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:58:9-60:15
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:59:13-69
+activity#unsw.Infs3634.Mydegree.QuizReviewActivity$resources_activitysearch
+ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:62:9-65:3
+	android:label
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:64:13-76
+	android:name
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml:63:13-94
+uses-sdk
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/10db4577e81c48935fc9ea1d34834456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/10db4577e81c48935fc9ea1d34834456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cccee0cb1f3a59f939c0fb5cafee4b2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cccee0cb1f3a59f939c0fb5cafee4b2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/b9fefa88ab5dc4f94470d734c56c0b82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/b9fefa88ab5dc4f94470d734c56c0b82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8a3e992af14efcbbfd718f3ddcaf5558/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8a3e992af14efcbbfd718f3ddcaf5558/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/abba9be7edd914274cd059f5755bfc9f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/abba9be7edd914274cd059f5755bfc9f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/b43b082b8cae9fd62a7f88235709fc1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/b43b082b8cae9fd62a7f88235709fc1b/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/86e1630db05c92eab1cb89c531b142b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/86e1630db05c92eab1cb89c531b142b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/7ead57978ace9a59468685af7a86f863/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/7ead57978ace9a59468685af7a86f863/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/6f6b8e9f3b5cab125ce622a6e82abbd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/6f6b8e9f3b5cab125ce622a6e82abbd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e366c96798a8579ea426514dee40bb09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e366c96798a8579ea426514dee40bb09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/530fe71185467728d030fee97b38bca5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/530fe71185467728d030fee97b38bca5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/be41c1e05084d2f5abd7b7e9c798d9d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/be41c1e05084d2f5abd7b7e9c798d9d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a993ff30c632371f3933c252b57b4aef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a993ff30c632371f3933c252b57b4aef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/48af5ea575be2ddc5743c2927f20bf13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/48af5ea575be2ddc5743c2927f20bf13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c921514a021801031bd1ad24f27cd1de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c921514a021801031bd1ad24f27cd1de/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/4f72b39e4e0daf023954ce598c1816a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/4f72b39e4e0daf023954ce598c1816a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/25d3d656c661d3507f1b2c1cde67b4c5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/25d3d656c661d3507f1b2c1cde67b4c5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3a53d31c63ed697b226f52e2c1992c3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3a53d31c63ed697b226f52e2c1992c3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/5bc8342e80fd9b23dec5b19652de1e67/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/5bc8342e80fd9b23dec5b19652de1e67/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8f439cf2e62fb44c610dfdf3f58d968c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8f439cf2e62fb44c610dfdf3f58d968c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/23f267620b30408b51e257c1633f643f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/23f267620b30408b51e257c1633f643f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3823535117942db52cb4b38dd9900883/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3823535117942db52cb4b38dd9900883/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4eea75de130ad87faddf5b54565d7090/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4eea75de130ad87faddf5b54565d7090/AndroidManifest.xml:20:5-44
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bowenzha/Desktop/anything/app/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/978e64b66e0a8119bc7601d15fc524b3/AndroidManifest.xml:24:13-83
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/bowenzha/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b7d41dacec20b1ff496886dfaf84443d/AndroidManifest.xml:9:13-64
