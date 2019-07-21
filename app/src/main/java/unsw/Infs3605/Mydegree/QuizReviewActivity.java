@@ -26,7 +26,7 @@ public class QuizReviewActivity extends MainActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_review);
 
-        appBarTxt.setText("Avo's Explanation");
+        appBarTxt.setText("Explanation");
 
         Intent intent = getIntent();
         correctCount = intent.getIntExtra("KEYCORRECT", 0);

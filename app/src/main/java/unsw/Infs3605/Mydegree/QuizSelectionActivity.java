@@ -18,26 +18,25 @@ public class QuizSelectionActivity extends MainActivity {
         appBarTxt.setText("Avo's Green Quizzes");
 
         final String[] topicHeadingLevelOneArray = {
-                "Quiz 1: The Truth about Metabolism",
-                "Quiz 2: Exercise, Heart and Blood",
-                "Quiz 3: Know about Your Muscle",
-                "Quiz 4: Fitness and Diet",
+                "Quiz: 1st Year",
+                "Quiz: 2nd Year",
+                "Quiz: 3rd Year",
+                /*"Quiz 4: Fitness and Diet",
                 "Quiz 5: Fitness Dos and Don'ts I",
                 "Quiz 6: Fitness Dos and Don'ts II",
                 "Quiz 7: Fitness Dos and Don'ts III",
-                "Quiz 8: Do You Know The Benefits of Walking?",
-
+                "Quiz 8: Do You Know The Benefits of Walking?",*/
         };
 
         final String[] topicHeadingLevelTwoArray = {
+                "4 Questions --> ",
+                "4 Questions --> ",
+                "4 Questions --> ",
+                /*"5 Questions --> ",
                 "5 Questions --> ",
                 "5 Questions --> ",
                 "5 Questions --> ",
-                "5 Questions --> ",
-                "5 Questions --> ",
-                "5 Questions --> ",
-                "5 Questions --> ",
-                "5 Questions --> ",
+                "5 Questions --> ",*/
 
         };
 

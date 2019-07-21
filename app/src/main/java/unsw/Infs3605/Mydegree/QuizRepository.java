@@ -17,11 +17,11 @@ class QuizRepository {
     private LiveData<List<Quiz>> mQuizTopic1;
     private LiveData<List<Quiz>> mQuizTopic2;
     private LiveData<List<Quiz>> mQuizTopic3;
-    private LiveData<List<Quiz>> mQuizTopic4;
+    /*private LiveData<List<Quiz>> mQuizTopic4;
     private LiveData<List<Quiz>> mQuizTopic5;
     private LiveData<List<Quiz>> mQuizTopic6;
     private LiveData<List<Quiz>> mQuizTopic7;
-    private LiveData<List<Quiz>> mQuizTopic8;
+    private LiveData<List<Quiz>> mQuizTopic8;*/
 
 
 
@@ -31,11 +31,11 @@ class QuizRepository {
         mQuizTopic1 = mQuizDao.getTopic1();
         mQuizTopic2 = mQuizDao.getTopic2();
         mQuizTopic3 = mQuizDao.getTopic3();
-        mQuizTopic4 = mQuizDao.getTopic4();
+      /*  mQuizTopic4 = mQuizDao.getTopic4();
         mQuizTopic5 = mQuizDao.getTopic5();
         mQuizTopic6 = mQuizDao.getTopic6();
         mQuizTopic7 = mQuizDao.getTopic7();
-        mQuizTopic8 = mQuizDao.getTopic8();
+        mQuizTopic8 = mQuizDao.getTopic8();*/
     }
 
 
@@ -52,7 +52,7 @@ class QuizRepository {
     LiveData<List<Quiz>> getTopic3Quiz() {
         return mQuizTopic3;
     }
-    LiveData<List<Quiz>> getTopic4Quiz() {
+    /*LiveData<List<Quiz>> getTopic4Quiz() {
         return mQuizTopic4;
     }
     LiveData<List<Quiz>> getTopic5Quiz() {
@@ -66,7 +66,7 @@ class QuizRepository {
     }
     LiveData<List<Quiz>> getTopic8Quiz() {
         return mQuizTopic8;
-    }
+    }*/
 
 
 
