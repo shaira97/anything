@@ -2,6 +2,7 @@ package unsw.Infs3605.Mydegree;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.annotation.NonNull;
@@ -13,10 +14,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 
 import java.util.List;
 
@@ -47,6 +51,37 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
         dbHelper = new CourseDatabaseHelper(mContext);
         Course course = courseList.get(position);
+
+        holder.cardview.setOnLongClickListener(new AdapterView.OnLongClickListener() {
+            final String course = courseList.get(position).getCourseTitle();
+
+
+            @Override
+            public boolean onLongClick(View view) {
+
+
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
+
+                alertDialog.setIcon(android.R.drawable.ic_dialog_alert);
+                alertDialog.setTitle("Are you sure?");
+                alertDialog.setMessage("Do you want to Remove this course?");
+
+                alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dbHelper.updateIsNotCompleted(course);
+
+
+                    }
+                });
+                alertDialog.setNegativeButton("No", null);
+                alertDialog.show();
+
+                return true;
+            }
+
+        });
+
         holder.courseTitle.setText(course.getCourseTitle());
         holder.cardview.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -176,6 +211,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             cardview = (CardView) itemView.findViewById(R.id.cardview_id);
         }
     }
+
+
 
 }
 

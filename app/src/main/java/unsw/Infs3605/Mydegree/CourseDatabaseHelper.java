@@ -309,6 +309,13 @@ public class CourseDatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(query);
     }
 
+    public void updateIsNotCompleted(String course) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "UPDATE " + DB_TABLE + " SET " + IsCompleted +
+                " = '" + 0 + "' WHERE " + CourseTitle + " = '" + course + "'";
+        db.execSQL(query);
+    }
+
     public void updatePrereq(String course) {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "UPDATE " + DB_TABLE + " SET " + prereq +
